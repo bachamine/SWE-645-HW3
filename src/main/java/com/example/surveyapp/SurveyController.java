@@ -14,6 +14,7 @@ public class SurveyController {
 
     @GetMapping
     public List<Survey> getAllSurveys() {
+        logger.info("Fetching all surveys");
         return surveyService.getAllSurveys();
     }
 
