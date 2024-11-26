@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.surveyapp.SurveyAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-25T21:56:38" hostname="ip-172-31-14-95" time="0.72">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.surveyapp.SurveyAppApplicationTests" time="0.72"/>
+  <system-out><![CDATA[21:56:32.107 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.surveyapp.SurveyAppApplicationTests]: SurveyAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:56:32.340 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.surveyapp.SurveyAppApplication for test class com.example.surveyapp.SurveyAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-11-25T21:56:33.031Z  INFO 1540 --- [SurveyApp] [    Test worker] c.e.surveyapp.SurveyAppApplicationTests  : Starting SurveyAppApplicationTests using Java 17.0.13 with PID 1540 (started by ubuntu in /home/ubuntu/survey-app)
+2024-11-25T21:56:33.036Z  INFO 1540 --- [SurveyApp] [    Test worker] c.e.surveyapp.SurveyAppApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T21:56:34.229Z  INFO 1540 --- [SurveyApp] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T21:56:34.303Z  INFO 1540 --- [SurveyApp] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-25T21:56:34.993Z  INFO 1540 --- [SurveyApp] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T21:56:35.058Z  INFO 1540 --- [SurveyApp] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-25T21:56:35.104Z  INFO 1540 --- [SurveyApp] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T21:56:35.532Z  INFO 1540 --- [SurveyApp] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T21:56:35.570Z  INFO 1540 --- [SurveyApp] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T21:56:36.231Z  INFO 1540 --- [SurveyApp] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55d99dc3
+2024-11-25T21:56:36.237Z  INFO 1540 --- [SurveyApp] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T21:56:36.377Z  WARN 1540 --- [SurveyApp] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-25T21:56:36.443Z  INFO 1540 --- [SurveyApp] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-25T21:56:37.704Z  INFO 1540 --- [SurveyApp] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T21:56:37.789Z  INFO 1540 --- [SurveyApp] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T21:56:38.360Z  WARN 1540 --- [SurveyApp] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T21:56:38.964Z  INFO 1540 --- [SurveyApp] [    Test worker] c.e.surveyapp.SurveyAppApplicationTests  : Started SurveyAppApplicationTests in 6.401 seconds (process running for 8.376)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
