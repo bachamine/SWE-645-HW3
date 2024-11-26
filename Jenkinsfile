@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/bachamine/SWE-645-HW3/survey-app'
+                git branch: 'main', url: 'https://github.com/bachamine/SWE-645-HW3'
             }
         }
         stage('Build') {
